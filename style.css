@@ -1,0 +1,170 @@
+/* {
+    font-family: Flame-Regular;
+} */
+
+a {
+    color:black ;
+    text-decoration: none;
+}
+
+.navbar-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.btn {
+    border-radius: 100px;
+}
+
+
+#moving-image{
+    animation: translateYAnimation 2s linear infinite
+}
+
+
+@keyframes translateYAnimation{
+    0%{
+        transform:translateY(0) ;
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translate3d(0);
+    }
+    
+}
+
+.menu{
+    background-color: rgb(235, 228, 218);
+}
+
+#menu1{
+    background-color: rgb(235, 228, 218);
+}
+
+
+a.btn {
+    
+    font-family :Flame-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    font-variant: normal;
+    font-style: normal;
+    border-radius: 9999px;
+    font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures :normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-variation-settings: normal;
+position: relative;
+  }
+
+  .nav-item a.nav-link {
+    color: black; /* Change to your preferred color */
+  }
+
+
+  .card-text{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+  }
+
+  .card-title{
+    font-family :Flame-Regular;
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+  .head{
+
+    font-family: Flame-Regular;
+
+  }
+
+  .paneer{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+  }
+
+  
+  .nav-item a.btn {
+    font-family :Flame-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    font-variant: normal;
+    font-style: normal;
+    border-radius: 9999px;
+    font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures :normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-variation-settings: normal;
+
+  }
+  .head1{
+    position:absolute;
+    font-family: Flame-Regular;
+    font-size: 25px;
+  }
+
+
+  .offcanvas-body{
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .offcanvas-end{
+    background-image: url("./images/150-02.jpeg.jpg");
+    background-size: 500px;
+    background-position: -35px;
+    
+  }
+
+  .btn-warning{
+    border-radius: 9999px;
+  }
+
+  .custom-toggler {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .card-header .nav-underline{
+    font-family: "FlameSans-Regular";
+
+  }
+  #menu2{
+    background-color: black;
+    color: white;
+    
+  }
+
+  .head3{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: end;
+  }
+
+ 
+
+
+  .fact:hover{
+    color: rgb(238, 119, 0) !important;
+
+  }
+
+  .button123{
+    margin-left: auto;
+  }
+
+  

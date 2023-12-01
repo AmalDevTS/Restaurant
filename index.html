@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      </style>
+    </script>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">
+          <img src="./images/favicon.png" alt="Logo" width="45" height="41" class="d-inline-block align-text-top">
+        </a>
+
+
+
+        <nav class="navbar fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <div class=" button123">
+            <div class="ms-5">
+            <a href="#menu123" class="btn ms-5" style="background-color: rgb(214, 35, 0); color: white;">Our Menu</a>
+            </div>
+            </div>
+            <button class="custom-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+
+              
+              <span><a href="#" type="button" class="btn position-relative"
+                  style="background-color: rgb(80, 35, 20); color: white;">
+                  Daily Offers
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    1
+                    <span class="visually-hidden">unread messages</span>
+            </button></a></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+
+
+              <!-- <div class="offcanvas-header">
+                <img src="./images/favicon.png" alt="Logo" width="45" height="41" class="d-inline-block align-text-top">
+                <h5 class="offcanvas-title head" id="offcanvasNavbarLabel">Burger King</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div> -->
+              <!-- <div class="offcanvas-body"> -->
+              <!-- <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                  </li>
+                  
+                </ul> -->
+              <!-- <form class="d-flex mt-3" role="search">
+                  <input class="form-control  ms-5 btn" type="search" placeholder="Search" aria-label="Search">
+                  <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Search</a>
+                </form> -->
+            </div>
+          </div>
+      </div>
+    </nav>
+    </div>
+    </nav>
+
+
+
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active adjust" data-bs-interval="1000000">
+          <video loop src="./images/So Many Ways – Whopper Combinations.mp4" overlay autoplay muted width="100%"
+            height="100%"></video>
+
+
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/16.9-KeyVisual[1].jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/29.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+
+  <section class="menu pt-5">
+    <div class="container">
+      <div class="col-lg-6 mt-3 ms-5">
+        <h1 class="head"><strong>BEST SELLERS</strong></h1>
+      </div>
+
+      <div class="row ms-5">
+        <div class="col-lg ms-5">
+          <img src="./images/77412-cuisine-whopper-hamburger-king-vegetarian-india-veggie (1).png" alt="" width="300px"
+            height="300px" id="moving-image">
+        </div>
+        <div class="col-lg-6 mt-4 me-5">
+          <h2 class="text-right head"><strong>Veg Whooper</strong></h2>
+          <p class="text-right paneer">Our signature Whopper with 7 layers between the buns. Extra crunchy veg Patty,
+            fresh onion, crispy lettuce, juicy tomatoes(seasonal), tangy gherkins, creamy and smoky sauces with xxl
+            buns. It’s Not A Burger, it’s a Whopper.
+          </p>
+          <h5 class="text-left head1"><strong>₹179/-</strong></h5>
+          <div class="ms-5">
+            <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="head"><strong>Paneer Royale Burger</strong></h2>
+            <p class="paneer">Introducing our delectable Paneer Royale Burger, a true delight for all vegetarians and
+              paneer lovers.Nestled within a soft, toasted bun, you'll find the paneer patty accompanied by fresh
+              lettuce, slices of ripe tomatoes, and a generous drizzle of our signature sauce, creating a symphony of
+              flavors and textures.</p>
+            <h5 class="text-left head1"><strong>₹209/-</strong></h5>
+            <div class="ms-5">
+              <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./images/892-8929260_spicy-paneer-burger-veg-cheese-burger.png" alt="Your Image" class="img-fluid"
+              width="300px" id="moving-image">
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    </div>
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="mt-3" id="menu123">
+
+    <div class="card text-center" id="menu1">
+      <h1 class="head"> <strong>OUR MENU</strong></h1>
+      <div class="card-header">
+        <ul class="nav nav-underline">
+          <li class="nav-item">
+            <img src="./images/1x_web_20220917071641152673_114x101png (1).jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link active" aria-current="true" href="#bestcombo" data-bs-toggle="tab">Best of Combos(Upto
+              20% OFF)</a>
+          </li>
+          <li class="nav-item">
+            <img src="./images/33.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#whooper" data-bs-toggle="tab">Whooper</a>
+
+          </li>
+          <li class="nav-item">
+            <img src="./images/44.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#burgers" data-bs-toggle="tab">Burgers & Wrapes</a>
+          </li>
+          <li class="nav-item">
+            <img src="./images/12.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#king" data-bs-toggle="tab">King Premium Burgers</a>
+          </li>
+          <li class="nav-item ms-3">
+            <img src="./images/13.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#sides" data-bs-toggle="tab">Sides</a>
+          </li>
+          <li class="nav-item ms-5">
+            <img src="./images/14.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#beverages" data-bs-toggle="tab">Beverages</a>
+          </li>
+          <li class="nav-item ms-5">
+            <img src="./images/15.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#wings" data-bs-toggle="tab">Chicken Wings</a>
+          </li>
+          <li class="nav-item ms-5">
+            <img src="./images/16.jpeg" alt="" width="60px" height="60px">
+            <a class="nav-link" href="#cafe" data-bs-toggle="tab">BK Cafe</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+
+          <div id="bestcombo" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/cdgcxmlj.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CRISPY VEG BURGER+FRIES(M)</strong></h5>
+                    <h5 class="text-left head1 ms-5 mt-5"><strong>₹175/-</strong></h5>
+                    <a href="#" class="btn ms-5 mt-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/s292ip8g.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>SUPER OVER COMBO-VEG</strong></h5>
+                    <p class="card-text">Save Rs.122|2 Whopper Jr Veg+2Med Fries+2Pepsi</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹718/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/0sb933j2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>VEG CRUNCHY TACO+FRIES(M)</strong></h5>
+                    <h5 class="text-left head1 mt-5 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn mt-5 ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/o3tiw0hb.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>SUPER OVER COMBO-CHICKEN</strong></h5>
+                    <p class="card-text">Save Rs.122|2 Whopper Jr Veg+2Med Fries+2Pepsi</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹758/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/epe6bu6c.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CRISPY CHICKEN BURGER+FRIES(M)</strong></h5>
+                    <h5 class="text-left head1 ms-5 mt-5"><strong>₹195/-</strong></h5>
+                    <a href="#" class="btn ms-5 mt-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/iu9yigv5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>GAME CHANGER COMBO-VEG</strong></h5>
+                    <p class="card-text">Save Rs.122|2Veg Whopper+2Med Fries+2Pepsi</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-content">
+
+          <div id="whooper" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/ty5s3duj.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WHOOPER</strong></h5>
+                    <h5 class="text-left head1 ms-5 mt-5"><strong>₹199/-</strong></h5>
+                    <a href="#" class="btn ms-5 mt-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/5bbs3loi.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>VEG DOUBLE WOOPER</strong></h5>
+                    <p class="card-text">Whooper with signature double veg patty.</p>
+                    <h5 class="text-left head1 ms-5 "><strong>₹229/-</strong></h5>
+                    <a href="#" class="btn ms-5 " style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/evsvz589.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MEXICAN WHOOPER VEG</strong></h5>
+                    <p class="card-text">Taste the fiesta in our Limited Time Mexican Veg Whooper with....</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹219/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/8a1qvg5g.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>VEG WHOOPER WITH CHEESE</strong></h5>
+                    <p class="card-text">Our signature Whooper with 7 layers between the buns.Extra....</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/1d808j4s.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WHOOPER WITH CHEESE</strong></h5>
+                    <p class="card-text">Our signature Whooper with 7 layers between the buns.Extra....</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹224/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/1xuem3ta.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MEXICAN WHOOPER MUTTON</strong></h5>
+                    <p class="card-text">
+                      Taste the fiesta in our Limited Time Mexican Veg Whooper with....
+                    </p>
+                    <h5 class="text-left head1 ms-5"><strong>₹359/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="tab-content">
+
+          <div id="burgers" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/31 (6).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CRISPY VEG BURGER</strong></h5>
+                    <p class="card-text">Our best selling burger with crispy veg patty, fresh onion an...</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹70/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/31 (5).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>PANEER ROYALE WRAP</strong></h5>
+                    <p class="card-text">Loaded wraper with thick paneer patty, lots of veggies and sauces.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/31 (4).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CRISPY VEG DOUBLE PATTY</strong></h5>
+                    <p class="card-text">Double up our best selling crispy veg burger</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹129/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/31 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>BK CHICKER BURGER</strong></h5>
+                    <p class="card-text">Our tribute to classic american taste. Bk chicken patty,garden...</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹149/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/31 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>WHOOPER JR VEG</strong></h5>
+                    <p class="card-text">Our signature Whooper with 7 layers between the buns.Extra....</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹169/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/31 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>VEG MAKHANI BUST BURGER</strong></h5>
+                    <p class="card-text">
+                      Enjoy rich makhani flavour with mix veg patty topped up with...
+                    </p>
+                    <h5 class="text-left head1 ms-5"><strong>₹80/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-content">
+
+          <div id="king" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/4 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>PANEER ROYALE BURGER</strong></h5>
+                    <p class="card-text">Thick Paneer Patty,loaded of sauces in soft square masala...</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/4 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>FIERY CHICKEN BURGER</strong></h5>
+                    <p class="card-text">Spicy Fried Chicken,loads of sauces with soft square masala...</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/4 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN TANDOORI BURGER</strong></h5>
+                    <p class="card-text">Flame Grilled Tandoori Chicken, veg khurchan, soft square masa...</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="tab-content">
+
+          <div id="sides" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/17 (6).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>FRIES (KING)</strong></h5>
+                    <p class="card-text">The perfect crispy partner.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹130/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/17 (5).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>HERBY GARLIC DIP</strong></h5>
+                    <p class="card-text">Chef Special Garlic Dip with Herbs</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹24/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/17 (4).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>PERI PERI SPICE MIX</strong></h5>
+                    <h5 class="text-left head1 ms-5 mt-5"><strong>₹29/-</strong></h5>
+                    <a href="#" class="btn ms-5 mt-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/17 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>BONELESS WINGS(LARGE) + 1 DIP</strong></h5>
+                    <p class="card-text"> Boneless Wings(Large) + 1 Herby Garlic Dip</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹273/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/17 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>HASHBROWN</strong></h5>
+                    <p class="card-text">What ever potato wants to be.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹49/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/17 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>BONELESS WINGS(REGULAR)+. ..</strong></h5>
+                    <p class="card-text">
+
+                      Boneless Wings(Regular) + 1 Herby Garlic Dip
+                    </p>
+                    <h5 class="text-left head1 ms-5"><strong>₹173/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-content">
+
+          <div id="beverages" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/12 (6).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>PEPSI MEDIUM</strong></h5>
+                    <p class="card-text">Pepsi</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹95/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/12 (5).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHOCOLATE THICK SHAKE</strong></h5>
+                    <p class="card-text">Our signature chocolate thick shake.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹189/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/12 (4).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>PEPSI BLACK MEDIUM</strong></h5>
+                    <p class="card-text">Pepsi Black</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹95/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/12 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MIRINDA MEDIUM</strong></h5>
+                    <h5 class="text-left head1 ms-5"><strong>₹95/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/12 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MOUNTAIN DEW MEDIUM</strong></h5>
+                    <h5 class="text-left head1 ms-5"><strong>₹95/-</strong></h5>
+
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/12 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>7 UP MEDIUM</strong></h5>
+                    <h5 class="text-left head1 ms-5"><strong>₹95/-</strong></h5>
+
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-content">
+
+          <div id="wings" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/14 (6).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WINGS (FRIED + GRILLED)-...</strong></h5>
+                    <p class="card-text">Combination of juicy fried and grilled chicken wings.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹519/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/14 (5).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WINGS 4PC - FRIED</strong></h5>
+                    <p class="card-text">Juicy chicken wings cooked to perfection.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹209/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/14 (4).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WINGS - 10PCS FRIED</strong></h5>
+                    <p class="card-text">Juicy chicken wings cooked to perfection.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹349/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/14 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WINGS - 2PC GRILLED</strong></h5>
+                    <p class="card-text">Juicy chicken wings cooked to perfection.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹79/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/14 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHICKEN WINGS - 10PCS GRILLED</strong></h5>
+                    <p class="card-text">Juicy chicken wings cooked to perfection.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹349/-</strong></h5>
+
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/14 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>BONELESS WINGS - LARGE</strong></h5>
+                    <p class="card-text">7pcs Boneless Chicken Bites</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹249/-</strong></h5>
+
+
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="tab-content">
+
+          <div id="cafe" class="active tab-pane fade in show">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 ms-5">
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/15 (6).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHOCOLATE MOUSSE CUP</strong></h5>
+                    <p class="card-text">Airy and creamy chocolate mousse topped with chocolate...</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹109/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/15 (5).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>AMERICANO (SMALL)</strong></h5>
+                    <p class="card-text">Our signature BK Cafe Coffee with Hot Water.
+                    </p>
+                    <h5 class="text-left head1 ms-5"><strong>₹139/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/15 (4).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MOCHA CAPPUCCINO (REGULAR)
+                      </strong></h5>
+                    <p class="card-text">Our signature BK Cafe Coffee with Rich Chocolate Flavour
+                    </p>
+                    <h5 class="text-left head1 ms-5"><strong>₹229/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/15 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>BERRY BLAST THICKSHAKE
+                      </strong></h5>
+                    <p class="card-text">Rich Creamy Black Currant Thick shake
+                    </p>
+                    <h5 class="text-left head1 ms-5"><strong>₹189/-</strong></h5>
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/15 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>MOCHA FRAPPE
+                      </strong></h5>
+                    <p class="card-text">Chocolate Flavoured Cold Coffee topped with Cream
+                    </p>
+                    <h5 class="text-left head1"><strong>₹269/-</strong></h5>
+
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                  <img src="./images/15 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>CHOCOCHIP MUFFIN
+                      </strong></h5>
+                    <p class="card-text">Soft & Fluffy chocolate cake topped with chocolate chips.</p>
+                    <h5 class="text-left head1 ms-5"><strong>₹129/-</strong></h5>
+
+
+                    <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Add+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <section id="menu1">
+    <div class="container">
+      <div class="row">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./images/100" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Spooky season starts here</h5>
+                <p class="card-text">Join Royal Perks for all the spooky things. You'll find spicy eats, boo-licious
+                  bundles and a ghostly game. Hope you can handle the heat</p>
+                <a href="#" class="btn ms-5 mt-5" style="background-color: rgb(238, 119, 0); color: white;">Join Royal
+                  Perks</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./images/101" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Can you handle the heat?</h5>
+                <p class="card-text">Over 600,000 BK® fans voted on which Ghost Pepper item to add to our menu, and it
+                  was a tie. So we summoned both, just in time for spooky season. Try Ghost Pepper Whopper® and Ghost
+                  Pepper Chicken Fries for a limited time.</p>
+                <a href="#" class="btn ms-5 " style="background-color: rgb(238, 119, 0); color: white;">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./images/102" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NEW Have-sies™: Your combo, your way</h5>
+                <p class="card-text">For those days when you can’t decide, just go with BOTH! Add Have-sies™ to your BK®
+                  combo and get half Fries, half Rings. You can still choose all Fries or all Rings, too! Because having
+                  it your way rules</p>
+                <a href="#" class="btn ms-5 mt-4" style="background-color: rgb(238, 119, 0); color: white;">Join Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./images/103" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pick your BK® Wrap Pack</h5>
+                <p class="card-text">These bundles are perfect for sharing, or for when you’re just hangry for BK®. Go
+                  with The Wrap Flow Trio, The Duo Wrap Combo, The King of Wrap or the Ultimate Wrap Party. Available
+                  for pickup or delivery—find ‘em only in the BK® App!</p>
+                <a href="#" class="btn ms-5" style="background-color: rgb(238, 119, 0); color: white;">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer id="menu2">
+    <div class="container">
+      <div class="row">
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62871.56674591482!2d76.22854724282692!3d9.977737210104184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d4df4019d59%3A0xc2f4bdb281df584f!2sBurger%20King!5e0!3m2!1sen!2sin!4v1698011320005!5m2!1sen!2sin"
+                  width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <h5 class="head3 ms-5"> TM & © 2023 BURGER KING COMPANY LLC./ AMAL DEV All Rights Reserved.</h5>
+              </div>
+              
+              <div class="col-md-4 mt-5">
+                <img src="./images/20" alt="Image Description" class="img-fluid">
+
+                <a href=""><i class="fa-brands fa-facebook fa-3x ms-3 fact" style="color: #757575;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-3x ms-3 mb-5 fact" style="color: #757575;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-3x ms-3 fact" style="color: #757575;"></i></a>
+                <a href=""><i class="fa-brands fa-youtube fa-3x ms-3 fact" style="color: #757575;"></i></a>
+
+               
+
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const navEl = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 56) {
+        navEl.classList.add('navbar-scrolled');
+      }
+      else if (window.scrollY < 56) {
+        navEl.classList.remove('navbar-scrolled');
+      }
+    });
+  </script>
+</body>
+
+</html>
